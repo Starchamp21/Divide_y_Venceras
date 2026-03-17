@@ -10,8 +10,7 @@ public class BottomUp {
         System.out.println("Resultado: " + resultado);
     }
     
-    // Mochila es Bottom-Up.
-    public static int mochila(int[] V, int[] W, int C) {
+    public static int mochila(int[] V, int[] W, int C) {  // Mochila es Bottom-Up.
         // Comprobación de seguridad.
         if(V.length != W.length) { return -1; }
 
